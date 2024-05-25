@@ -12,5 +12,5 @@ int main()
 	auto ar = foo(10, 20, 30);
 
 	for (auto x : ar)
-		std::cout << x << " ";
+		std::cout << x << ' ';
 }
