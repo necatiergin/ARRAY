@@ -19,7 +19,7 @@ int main()
 	using namespace std;
 
 	array<array<int, 5>, 2> ax{ 12, 4, 7, 8, 13, 1, 7, 9, 2, 6 };
-	cout << ax << "\n";
+	cout << ax << '\n';
 	array<array<int, 3>, 4> ad2{ { {1, 4, 7}, {2, 5, 9}, {1, 2, 4}, {3, 9, 4} } };
-	cout << ad2 << "\n";
+	cout << ad2 << '\n';
 }
