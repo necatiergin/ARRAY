@@ -1,3 +1,7 @@
+#include <array>
+#include <string>
+#include <iostream>
+
 int main()
 {
 	using namespace std;
