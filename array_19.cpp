@@ -14,5 +14,5 @@ int main()
 	auto a2 = foo();
 	auto [a, b, c] = foo();  //structured binding
 
-	cout << a << " " << b << " " << c << "\n";
+	cout << a << " " << b << " " << c << '\n';
 }
