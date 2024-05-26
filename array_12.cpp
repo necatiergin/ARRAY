@@ -13,5 +13,5 @@ int main()
 		++x;
 
 	for (int x : ax)
-		cout << x << " ";
+		cout << x << ' ';
 }
