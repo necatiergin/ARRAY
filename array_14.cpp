@@ -20,7 +20,7 @@ int main()
 	using namespace std;
 
 	array<string, 3> ax{ "ali", "veli", "naz" };
-	cout << ax << "\n";
+	cout << ax << '\n';
 	array<int, 5> ay{1, 5, 7, 12};
-	cout << ay << "\n";
+	cout << ay << '\n';
 }
