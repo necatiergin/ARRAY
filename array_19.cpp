@@ -8,11 +8,9 @@ std::array<int, 3> foo()
 
 int main()
 {
-	using namespace std;
-
-	array<int, 3> a1 = foo();
+	std::array<int, 3> a1 = foo();
 	auto a2 = foo();
 	auto [a, b, c] = foo();  //structured binding
 
-	cout << a << " " << b << " " << c << '\n';
+	std::cout << a << ' ' << b << ' ' << c << '\n';
 }
