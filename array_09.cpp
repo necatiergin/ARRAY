@@ -3,12 +3,10 @@
 
 int main()
 {
-	using namespace std;
-	
-	array<int, 5> ax{ 0 };
+	std::array<int, 5> ax{ 0 };
 
 	try {
-		cout << ax.at(6) << "\n";
+		std::cout << ax.at(6) << "\n";
 	}
 	//catch (std::exception& ex) {
 	//catch (std::logic_error& ex) {
