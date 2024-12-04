@@ -3,7 +3,6 @@
 #include <algorithm>
 #include "nutility.h"
 
-
 int main()
 {
 	using namespace std;
