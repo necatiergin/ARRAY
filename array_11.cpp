@@ -17,7 +17,7 @@ operator<<(std::ostream& os, const std::array<T, size>& ar)
 int main()
 {
 	std::array ax = { 1, 4, 5, 7, 2 }; //C++17
-	//std::array az<int> = { 12, 3, 6, 3 }; //gecersiz
+	//std::array az<int> = { 12, 3, 6, 3 }; //invalid
 
-	std::cout << ax << "\n";
+	std::cout << ax << '\n';
 }
