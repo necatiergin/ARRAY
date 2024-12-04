@@ -16,7 +16,7 @@ operator<<(std::ostream& os, const std::array<T, size>& ar)
 
 int main()
 {
-	using namespace std;
+	using std::array, std::cout;
 
 	array<array<int, 5>, 2> ax{ 12, 4, 7, 8, 13, 1, 7, 9, 2, 6 };
 	cout << ax << '\n';
