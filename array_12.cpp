@@ -3,9 +3,7 @@
 
 int main()
 {
-	using namespace std;
-
-	array<int, 10> ax;
+	std::array<int, 10> ax;
 
 	ax.fill(5);
 
@@ -13,5 +11,5 @@ int main()
 		++x;
 
 	for (int x : ax)
-		cout << x << ' ';
+		std::cout << x << ' ';
 }
